@@ -9,8 +9,8 @@ import os
 from langchain_openai import AzureChatOpenAI
 from pydantic import SecretStr
 
-from browser_use.agent.service import Agent
-from browser_use.browser.browser import Browser, BrowserConfig, BrowserContextConfig
+from browser_use_et.agent.service import Agent
+from browser_use_et.browser.browser import Browser, BrowserConfig, BrowserContextConfig
 
 browser = Browser(
 	config=BrowserConfig(

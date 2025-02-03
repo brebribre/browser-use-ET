@@ -13,7 +13,7 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 llm = ChatOpenAI(model='gpt-4o')
 agent = Agent(

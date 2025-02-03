@@ -8,7 +8,7 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent, SystemPrompt
+from browser_use_et import Agent, SystemPrompt
 
 
 class MySystemPrompt(SystemPrompt):

@@ -3,9 +3,9 @@ import asyncio
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
-from browser_use.agent.views import ActionResult
-from browser_use.controller.service import Controller
+from browser_use_et import Agent
+from browser_use_et.agent.views import ActionResult
+from browser_use_et.controller.service import Controller
 
 load_dotenv()
 

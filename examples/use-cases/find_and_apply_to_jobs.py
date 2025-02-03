@@ -14,7 +14,7 @@ from pathlib import Path
 
 from PyPDF2 import PdfReader
 
-from browser_use.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.browser import Browser, BrowserConfig
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import asyncio
@@ -24,8 +24,8 @@ from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI, ChatOpenAI
 from pydantic import BaseModel, SecretStr
 
-from browser_use import ActionResult, Agent, Controller
-from browser_use.browser.context import BrowserContext
+from browser_use_et import ActionResult, Agent, Controller
+from browser_use_et.browser.context import BrowserContext
 
 load_dotenv()
 import logging

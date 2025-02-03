@@ -38,10 +38,12 @@ Spin up your agent:
 
 ```python
 from langchain_openai import ChatOpenAI
-from browser_use import Agent
+from browser_use_et import Agent
 import asyncio
 from dotenv import load_dotenv
+
 load_dotenv()
+
 
 async def main():
     agent = Agent(
@@ -50,6 +52,7 @@ async def main():
     )
     result = await agent.run()
     print(result)
+
 
 asyncio.run(main())
 ```

@@ -13,7 +13,7 @@ import asyncio
 
 from langchain_openai import AzureChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 # Retrieve Azure-specific environment variables
 azure_openai_api_key = os.environ.get('AZURE_OPENAI_API_KEY')

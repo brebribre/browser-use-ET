@@ -7,8 +7,8 @@
 # os.environ["OLLAMA_HOST"] = "http://x.x.x.x:11434"
 
 import asyncio
-from browser_use import Agent
-from browser_use.agent.views import AgentHistoryList
+from browser_use_et import Agent
+from browser_use_et.agent.views import AgentHistoryList
 from langchain_ollama import ChatOllama
 
 

@@ -2,16 +2,16 @@ import os
 import sys
 from pathlib import Path
 
-from browser_use.agent.views import ActionResult
+from browser_use_et.agent.views import ActionResult
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent, Controller
-from browser_use.browser.browser import Browser, BrowserConfig
-from browser_use.browser.context import BrowserContext
+from browser_use_et import Agent, Controller
+from browser_use_et.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.context import BrowserContext
 
 CV = Path.cwd() / 'examples/test_cv.txt'
 import logging

@@ -3,7 +3,7 @@ import asyncio
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 load_dotenv()
 

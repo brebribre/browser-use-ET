@@ -3,8 +3,8 @@ from discord.ext import commands
 from dotenv import load_dotenv
 from langchain_core.language_models.chat_models import BaseChatModel
 
-from browser_use import BrowserConfig
-from browser_use.agent.service import Agent, Browser
+from browser_use_et import BrowserConfig
+from browser_use_et.agent.service import Agent, Browser
 
 load_dotenv()
 

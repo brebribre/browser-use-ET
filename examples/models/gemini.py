@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')

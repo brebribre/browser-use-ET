@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
 
-from browser_use import ActionResult, Agent, Controller
+from browser_use_et import ActionResult, Agent, Controller
 
 load_dotenv()
 

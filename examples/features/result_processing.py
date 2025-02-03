@@ -2,8 +2,8 @@ import os
 import sys
 from pprint import pprint
 
-from browser_use.browser.browser import Browser, BrowserConfig
-from browser_use.browser.context import (
+from browser_use_et.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.context import (
 	BrowserContext,
 	BrowserContextConfig,
 	BrowserContextWindowSize,
@@ -14,9 +14,9 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
-from browser_use.agent.views import AgentHistoryList
-from browser_use.controller.service import Controller
+from browser_use_et import Agent
+from browser_use_et.agent.views import AgentHistoryList
+from browser_use_et.controller.service import Controller
 
 llm = ChatOpenAI(model='gpt-4o')
 browser = Browser(

@@ -19,16 +19,16 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pydantic import SecretStr
 
-from browser_use.agent.views import ActionResult
+from browser_use_et.agent.views import ActionResult
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import asyncio
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from browser_use import Agent, Controller
-from browser_use.browser.browser import Browser, BrowserConfig
-from browser_use.browser.context import BrowserContext
+from browser_use_et import Agent, Controller
+from browser_use_et.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.context import BrowserContext
 
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')

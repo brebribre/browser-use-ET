@@ -9,8 +9,8 @@ from typing import List, Optional
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
 
-from browser_use.agent.service import Agent
-from browser_use.controller.service import Controller
+from browser_use_et.agent.service import Agent
+from browser_use_et.controller.service import Controller
 
 # Initialize controller first
 controller = Controller()

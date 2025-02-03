@@ -1,7 +1,7 @@
 import os
 import sys
 
-from browser_use.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.browser import Browser, BrowserConfig
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -9,7 +9,7 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 """
 Example: Using the 'Scroll down' action.

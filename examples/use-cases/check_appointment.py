@@ -5,8 +5,8 @@ import dotenv
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, SecretStr
 
-from browser_use.agent.service import Agent
-from browser_use.controller.service import Controller
+from browser_use_et.agent.service import Agent
+from browser_use_et.controller.service import Controller
 
 dotenv.load_dotenv()
 

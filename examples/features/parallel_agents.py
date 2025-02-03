@@ -6,9 +6,9 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use.agent.service import Agent
-from browser_use.browser.browser import Browser, BrowserConfig
-from browser_use.browser.context import BrowserContextConfig
+from browser_use_et.agent.service import Agent
+from browser_use_et.browser.browser import Browser, BrowserConfig
+from browser_use_et.browser.context import BrowserContextConfig
 
 browser = Browser(
 	config=BrowserConfig(

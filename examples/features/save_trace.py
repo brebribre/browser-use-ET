@@ -6,9 +6,9 @@ from langchain_openai import ChatOpenAI
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import asyncio
 
-from browser_use.agent.service import Agent
-from browser_use.browser.browser import Browser
-from browser_use.browser.context import BrowserContextConfig
+from browser_use_et.agent.service import Agent
+from browser_use_et.browser.browser import Browser
+from browser_use_et.browser.context import BrowserContextConfig
 
 llm = ChatOpenAI(model='gpt-4o', temperature=0.0)
 

@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import SecretStr
 
-from browser_use import BrowserConfig
+from browser_use_et import BrowserConfig
 from examples.integrations.slack.slack_api import SlackBot, app
 
 load_dotenv()

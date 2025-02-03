@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 load_dotenv()
 

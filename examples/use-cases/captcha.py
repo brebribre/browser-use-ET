@@ -13,7 +13,7 @@ import asyncio
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 # NOTE: captchas are hard. For this example it works. But e.g. for iframes it does not.
 # for this example it helps to zoom in.

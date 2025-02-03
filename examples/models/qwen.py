@@ -3,7 +3,7 @@ import os
 
 from langchain_ollama import ChatOllama
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 
 async def run_search():

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from pydantic import SecretStr
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 # dotenv
 load_dotenv()

@@ -9,7 +9,7 @@ import time
 
 from langchain_openai import ChatOpenAI
 
-from browser_use import Agent
+from browser_use_et import Agent
 
 
 class AgentController:

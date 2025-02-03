@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import asyncio
 
-from browser_use import Agent, Browser, Controller
+from browser_use_et import Agent, Browser, Controller
 
 async def main():
     browser = Browser()

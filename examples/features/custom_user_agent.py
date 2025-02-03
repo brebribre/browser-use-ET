@@ -4,15 +4,15 @@ import sys
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
 
-from browser_use.browser.context import BrowserContext, BrowserContextConfig
+from browser_use_et.browser.context import BrowserContext, BrowserContextConfig
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import argparse
 import asyncio
 
-from browser_use import Agent
-from browser_use.browser.browser import Browser, BrowserConfig
-from browser_use.controller.service import Controller
+from browser_use_et import Agent
+from browser_use_et.browser.browser import Browser, BrowserConfig
+from browser_use_et.controller.service import Controller
 
 
 def get_llm(provider: str):
